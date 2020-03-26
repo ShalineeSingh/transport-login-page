@@ -1,0 +1,424 @@
+html,
+body,
+div,
+span,
+h2,
+p,
+font,
+img,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  -webkit-text-size-adjust: 100%
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+body {
+  font-family: sans-serif
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background: #f4f4f4;
+  border: 1px solid #DDD;
+  -webkit-box-shadow: inset 1px 1px 4px #ddd;
+  -moz-box-shadow: inset 1px 1px 4px #ddd;
+  box-shadow: inset 1px 1px 4px #ddd;
+  font-size: 15px;
+  height: 23px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  width: 360px
+}
+
+input:focus {
+  -webkit-box-shadow: 0 0 3px #069;
+  -moz-box-shadow: 0 0 3px #069;
+  box-shadow: 0 0 3px #069
+}
+
+label {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 17px;
+  color: #000;
+  font-size: 12px;
+  line-height: 16px
+}
+
+.new-ghome #main-wrapper {
+  margin-top: 62px
+}
+
+.new-ghome #main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 974px;
+  overflow: hidden
+}
+
+.new-ghome #content h2 {
+  padding-top: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #000;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center
+}
+
+.new-ghome .jointoday {
+  margin-left: 10px;
+  float: left;
+  width: 400px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  margin-left: 0
+}
+
+.new-ghome .jointoday h2 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #000;
+  margin-bottom: 5px
+}
+
+.new-ghome .jointoday p {
+  padding-left: 2px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333;
+  font-weight: normal
+}
+
+.new-ghome .jointoday legend {
+  display: none
+}
+
+.new-ghome .jointoday label {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 17px;
+  color: #000
+}
+
+.new-ghome .jointoday form.feature {
+  margin-top: 15px
+}
+
+.new-ghome .jointoday form.feature fieldset {
+  overflow: hidden
+}
+
+.new-ghome .jointoday form.feature p.action {
+  float: left
+}
+
+.new-ghome .jointoday form.feature p.policy {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999;
+  padding-left: 20px;
+  margin-top: 30px
+}
+
+.new-ghome .jointoday form.feature li {
+  margin-top: 10px;
+  padding-left: 2px
+}
+
+.new-ghome .jointoday input {
+  background: #fdfdfd;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 5px 6px 4px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+  border: 1px solid #c1c1c1;
+  font-size: 13px;
+  color: #333
+}
+
+.new-ghome .jointoday input.focus,
+.new-ghome .jointoday input:focus {
+  background: #fff;
+  outline: 0;
+  border: 1px solid #0077b5
+}
+
+.new-ghome .jointoday input.disabled,
+.new-ghome .jointoday input[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  cursor: not-allowed
+}
+
+.new-ghome .jointoday .error input {
+  background: #fdfdfd;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 5px 6px 4px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+  border: 1px solid #dd3737;
+  font-size: 13px;
+  color: #dd3737
+}
+
+.new-ghome .jointoday .error input.focus,
+.new-ghome .jointoday .error input:focus {
+  background: #fff;
+  outline: 0;
+  border: 1px solid #dd3737
+}
+
+.new-ghome .jointoday .error input.disabled,
+.new-ghome .jointoday .error input[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  cursor: not-allowed
+}
+
+.new-ghome .jointoday input,
+.new-ghome .jointoday .error input {
+  height: auto;
+  width: 344px
+}
+
+.new-ghome .jointoday .btn-action {
+  font-weight: bold;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+  margin: 0;
+  overflow: visible;
+  text-decoration: none !important;
+  width: auto;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0 15px;
+  height: 34px;
+  line-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  background-color: #f6e312;
+  border-color: #e9ac1a;
+  background-image: -webkit-linear-gradient(top, #f6e312 0%, #f9c80d 100%);
+  background-image: -moz-linear-gradient(top, #f6e312 0%, #f9c80d 100%);
+  background-image: -o-linear-gradient(top, #f6e312 0%, #f9c80d 100%);
+  background-image: linear-gradient(top, #f6e312 0%, #f9c80d 100%);
+  white-space: nowrap;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+  margin-top: 30px
+}
+
+.new-ghome .jointoday .btn-action.hover,
+.new-ghome .jointoday .btn-action:hover,
+.new-ghome .jointoday .btn-action.focus,
+.new-ghome .jointoday .btn-action:focus {
+  background-color: #eddb11;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEDDB11', endColorstr='#FFF2B21B');
+  background-image: -webkit-linear-gradient(top, #eddb11 0%, #efcf14 35%, #f1bf18 65%, #f2b21b 100%);
+  background-image: -moz-linear-gradient(top, #eddb11 0%, #efcf14 35%, #f1bf18 65%, #f2b21b 100%);
+  background-image: -o-linear-gradient(top, #eddb11 0%, #efcf14 35%, #f1bf18 65%, #f2b21b 100%);
+  background-image: linear-gradient(top, #eddb11 0%, #efcf14 35%, #f1bf18 65%, #f2b21b 100%);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25)
+}
+
+.new-ghome .jointoday .btn-action.active,
+.new-ghome .jointoday .btn-action:active {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25) inset
+}
+
+#header {
+  padding-bottom: 5px;
+  -webkit-box-shadow: 0 1px 4px #ccc;
+  -moz-box-shadow: 0 1px 4px #ccc;
+  box-shadow: 0 1px 4px #ccc;
+  z-index: 200;
+  background: #F4F4F4;
+  border-bottom: 1px solid #CDCDCD;
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+
+#header h1 {
+  padding-top: 14px;
+  float: left
+}
+
+#header .container {
+  margin: 0 auto;
+  width: 980px
+}
+
+#header .container p.textad {
+  margin-top: 10px;
+  line-height: 21px;
+  float: left;
+  width: 80%
+}
+
+#header .container .login {
+  margin-right: 12px;
+  float: right
+}
+
+#header .container .login input[type="text"],
+#header .container .login input[type="password"] {
+  background-color: #fff;
+  border-color: #ccc;
+  width: 169px
+}
+
+#header .container .login #signin {
+  margin-top: 17px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#header .container .login legend {
+  display: none
+}
+
+#header .container .login li {
+  padding-left: 10px;
+  float: left
+}
+
+#header .container .login .forgot-pwd {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-left: 5px;
+  font-size: 11px;
+  margin-top: -4px
+}
+
+.new-ghome .jointoday input,
+.new-ghome .jointoday .error input {
+  color: #5e5e5e;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.new-ghome .jointoday input::-webkit-input-placeholder,
+.new-ghome .jointoday .error input::-webkit-input-placeholder {
+  color: #999
+}
+
+.new-ghome .jointoday input:-moz-placeholder,
+.new-ghome .jointoday .error input:-moz-placeholder {
+  color: #999
+}
+
+.new-ghome .jointoday input:-ms-input-placeholder,
+.new-ghome .jointoday .error input:-ms-input-placeholder {
+  color: #999
+}
+
+.new-ghome .jointoday input.hint {
+  color: #999
+}
+
+.new-ghome .jointoday br {
+  display: none
+}
+
+.new-ghome .jointoday form.feature p.action {
+  float: none
+}
+
+.new-ghome .jointoday form.feature p.policy {
+  width: 358px;
+  padding-left: 2px;
+  margin-top: 30px
+}
+
+.new-ghome .jointoday .btn-action {
+  width: 358px;
+  margin-top: 10px
+}
+
+.new-ghome #first-name {
+  float: left
+}
+
+.new-ghome #first-name input {
+  width: 140px
+}
+
+.new-ghome #last-name {
+  float: left;
+  margin-left: 8px
+}
+
+.new-ghome #last-name input {
+  width: 180px
+}
+
+.new-ghome #email-address {
+  clear: both
+}
+
+.new-ghome #email-address,
+.new-ghome #password {
+  margin-top: 0;
+  padding-top: 25px
+}
